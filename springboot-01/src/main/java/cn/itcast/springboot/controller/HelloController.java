@@ -21,7 +21,7 @@ public class HelloController {
 	@GetMapping("/hello")
 	public String hello(){
 		
-		//System.out.println(environment.getProperty("name"));
+		//System.out.println(environment.getProperty("name"));123
 		System.out.println(environment.getProperty("url"));
 		
 		return "hello world";
